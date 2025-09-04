@@ -2,13 +2,13 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Жёлтая энергия</title>
+  <title>Тёплый уют</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #FFFACD, #FFD700);
-      color: #4b3e00;
+      background: linear-gradient(135deg, #FFDAB9, #FFB347);
+      color: #3b2f2f;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -17,38 +17,41 @@
     }
     h1 {
       font-size: 3em;
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
     }
     .btn {
-      margin: 10px;
-      padding: 14px 28px;
-      font-size: 1.1em;
-      background-color: #FFDE59;
-      color: #4b3e00;
-      border: 2px solid #f1c40f;
-      border-radius: 10px;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1em;
+      background-color: #FF8C42;
+      color: white;
+      border: none;
+      border-radius: 8px;
       cursor: pointer;
-      transition: transform 0.2s ease, background-color 0.3s ease;
+      transition: background-color 0.3s ease;
     }
     .btn:hover {
-      background-color: #f7c948;
-      transform: scale(1.05);
+      background-color: #e6762f;
     }
   </style>
 </head>
 <body>
-  <h1>Выбирай свой путь ☀️</h1>
-
-  <button class="btn" onclick="window.open('https://youtube.com/@artemka1773_w?si=EElyCrZVc7gyuFZ9', '_blank')">
-    Мой YouTube
-  </button>
-
-  <button class="btn" onclick="location.href='yellow-page.html'">
-    Start making own Anthill :3
-  </button>
-
-  <button class="btn" onclick="window.open('https://discord.gg/ants-simulator-1046449994531610634', '_blank')">
-    Ант Сим 2 — Discord сервер 🐜
-  </button>
+  <div class="card">
+    <h1>Добро пожаловать!</h1>
+    <p>Здесь тепло, лампово, ну что? построим свой муровейник. Устраивайся поудобнее, и стартуй братишка 😎</p>
+    <button class="btn" onclick="location.href='https://artemka-bit-blip.github.io/Secret-ant/'">Перейти дальше</button>
+  </div>
 </body>
 </html>
